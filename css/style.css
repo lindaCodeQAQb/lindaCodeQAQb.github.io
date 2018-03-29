@@ -1,0 +1,102 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;color:#000;}
+img,input{border:none;}
+header,nav,section,article,aside,footer{display:block;}
+html,body{height:100%;}
+.clearfix:after{
+	content: ".";
+	height:0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.pages1{background:url(../images/oshin-slide-1.jpg) no-repeat center;background-size:cover;height:100%;text-align: center;}
+.pages1 .logo{float: left;padding:2% 0 0 2%;}
+.pages1 .icon{float: right;padding: 2% 2% 0 0;}
+.pagess1 .icon i{color:red;font-size: 15px;}
+.pages1 nav{display:inline-block;}
+.pages1 nav li{float:left;height:99px;line-height: 99px;padding:0 21px;letter-spacing: 2px;}
+.pages1 nav li a{font-size:12px;font-weight:bold;text-transform: uppercase;}
+.pages1 nav li a:hover{color:#e0a240;}
+@font-face{
+	font-family:"ts";
+	src:url(../fonts/BrushScriptStd.eot),url(../fonts/BrushScriptStd.svg),url(../fonts/BrushScriptStd.ttf),url(../fonts/BrushScriptStd.woff);
+}
+.pages1 .anim{
+	width:364px;height: 307px;position:absolute;margin:auto;top: 0;bottom:0;left: 0;right: 0;
+	}
+.anim .a1{line-height: 80px;font-size: 20px;letter-spacing: 3px;position:absolute;top:0;left:56px;animation: a1 1s;}
+.anim .a2{letter-spacing: 3px;display:inline-block;width:305px;height:102px;line-height: 102px;font-weight:bold;font-size: 46px;border: 7px solid #000;position:absolute;top:80px;left:0;animation: a2 1s;}
+.anim .a3{line-height: 111px;font-size: 30px;font-style: italic;letter-spacing:2px;position:absolute;top:197px;left:0;animation: a3 1s;font-family:"ts";}
+@keyframes a1{
+	from{top:-300px;opacity: 0;}
+	to{top:0px;opacity: 1;}
+}
+@keyframes a2{
+	from{top:300px;opacity: 0;}
+	to{top:80px;opacity: 1;}
+}
+@keyframes a3{
+	from{top:-300px;opacity: 0;}
+	to{top:197px;opacity: 1;}
+}
+
+.pages2{text-align: center;}
+.default h2{padding-top: 75px;height: 73px;line-height: 73px;}
+.default span{height: 64px;line-height: 64px;}
+.pages2 p{line-height: 33px;padding-bottom: 100px;}
+.default .diamond{width:10px;height: 10px;border: 1px solid #f6e4c8;background:#e0a240 ;margin: 0 auto;position:relative;transform: rotate(45deg);}
+.default .diamond:before{content:'';width:20px;height: 1px; background:#E8E8E8;position: absolute;left: 0;top:0;transform: rotate(-45deg) translateX(-43px);}
+.default .diamond:after{content:'';width:20px;height: 1px; background:#E8E8E8;position: absolute;left: 0;top:0;transform: rotate(-45deg) translateX(26px);}
+.pages2 .pic{font-size: 0;}
+.pages2 ul li{float:left;width:25%;height: 245px;}
+.pages2 ul li:nth-child(odd){background-color: #f2f5f8;}
+.pages2 ul li:nth-child(even){background-color: #edf0f2;}
+.pages2 ul li i{font-size: 60px;padding-top: 60px;transition: 1s;}
+.pages2 ul li span{line-height: 53px;display:block;transition: 1s;}
+.pages2 ul li:hover i,.pages2 ul li:hover span{transform:translateY(-25px)}
+
+.pages3{width:1200px; margin: 0 auto;}
+.pages3 .left{float: left;width:398px;padding-top: 110px;}
+.pages3 .left li{padding-bottom: 39px;}
+.pages3 .left .icon{text-align:center;float: left;width:70px;font-size: 30px;color:#e1a249;padding-top: 10px;}
+.pages3 .left .text{float: left;width:285px;padding-left: 10px;}
+.pages3 .left .text h3{line-height: 53px;}
+.pages3 .left .text p{line-height: 26px;}
+
+.pages3 .pic{float: left;width:404px;}
+.pages3 .pic img{width:82%;text-align: center;padding: 90px 0 90px 0;}
+
+.pages4{height:400px;background: url(../images/wanderlust01.jpg) no-repeat center top/cover fixed;}
+
+.pages5{text-align: center;width:1200px;margin: 0 auto;}
+.pages5 .nav{display: inline-block;padding:49px 0 50px 0;}
+.pages5 .nav li{float:left;height:46px;}
+.pages5 .nav li a{display:block;height:44px;line-height:44px;border:1px solid #fff;padding:0 20px;float:left;height:46px;color:#222;}
+.pages5 .nav li a:hover{border:1px solid #e1a249;color:#e1a249;}
+
+.pages5 .pic_list li{width:373px;height:221px;margin: 0 40px 40px 0;float: left;}
+.pages5 .pic_list li:nth-child(3n){margin-right: 0;}
+.pages5 .pic_list li img{width:100%;height:100%;display: block;}
+.pages5 .btn{margin-bottom: 90px;}
+.pages5 .btn a{margin:0 auto;display:inline-block;width:158px;height: 44px;line-height: 44px;border:2px solid #000;transition: .5s;}
+.pages5 .btn:hover a{background-color: #e1a249;border:2px solid #000;color:#fff;}
+
+.pages6{text-align: center;min-height:413px;margin-top:90px;margin: 0 auto;background-color: #f2f3f8;}
+.pages6 i{height:134px;color:#DFDFDF;font-size: 90px;padding-top: 71px;}
+.pages6 p{line-height: 36px;color:#5f6263;font-size: 20px;}
+.pages6 p em,.pages6 p span{color:#e1a540;}
+
+.pages7{text-align: center;margin-bottom: 90px;}
+.pages7 .bigpic{padding-top: 85px;}
+.pages7 .bigpic a{display: block;}
+.pages7 .bigpic .pic_l{width:48%;margin:0 1%;float:left;}
+.pages7 .bigpic .pic_r{width:48%;margin:0 1%;float:right;}
+.pages7 .bigpic img{width:100%;}
+
+.pages8{height:340px;background: url(../images/01_02.jpg); text-align: center;color:#fff;text-transform: uppercase;}
+.pages8 h2{line-height: 48px;padding-top: 85px;letter-spacing: 3px;}
+.pages8 a{display:inline-block;width:110px;height:44px;line-height: 44px;color:#fff;background-color: #f0b452;margin-top: 20px;padding:0 10px;font-weight: normal;}
+
+
